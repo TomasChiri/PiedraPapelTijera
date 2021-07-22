@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel o Tijera</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Piedra Papel o Tijera</h1>
+    </header>
+    <div class="tablero">
+        <div id="lbl-user" class="insignia">user</div>
+        <div id="lbl-comp" class="insignia">comp</div>
+        <span id="puntos-user">0</span>:<span id="puntos-comp">0</span>
+    </div>
+
+    <div class="resultado">
+        <p>Bienvenido a Piedra, Papel o Tijera </p>
+    </div>
+
+    <div class="decisiones">
+        <div id="r" class="decision">
+            <img src="img/rock.png" alt="piedra">
+        </div>
+        <div id="p" class="decision">
+            <img src="img/paper.jpg" alt="papel">
+        </div>
+        <div id="s" class="decision">
+            <img src="img/scissors2.png" alt="tijera">
+        </div>
+    </div>
+
+    <p id="mensaje-movimiento">Elige tu movimiento.</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
